@@ -108,9 +108,7 @@ img {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 4rem;
-    
-    
+    margin-top: 4rem;  
 }
 
 @media only screen and (max-width: 985px) {
@@ -123,19 +121,13 @@ img {
         flex-direction: column;
         align-items: center;
         min-width: 0;
-    
-
     }
     
     img {
        min-width: 100%;
        
-    }
-    
+    } 
 }
-
-
-
 
 /**Header**/
 
@@ -143,9 +135,12 @@ nav {
     width: 100%;
 }
 
-
 nav a {
     color: #4BC3B5;
+}
+
+nav li a:hover {
+    cursor: pointer;
 }
 
 nav li {
@@ -191,7 +186,3 @@ nav li {
     color: white;
     cursor: pointer;
 }
-
-
-
-
