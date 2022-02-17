@@ -187,6 +187,9 @@ nav li {
 }
 
 .join-us a:hover {
-    color: white;
     cursor: pointer;
+}
+
+.join-us a:active {
+    color: white;
 }
